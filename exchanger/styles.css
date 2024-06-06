@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+#exchange-rates {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+#exchange-rates p {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+#exchange-rates p:hover {
+    background: #e0e0e0;
+}
+
+#exchange-rates strong {
+    color: #333;
+}

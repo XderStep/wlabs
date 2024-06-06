@@ -1,0 +1,29 @@
+{
+  "name": "wlabs",
+  "version": "1.0.0",
+  "description": "WEB",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XderStep/wlabs.git"
+  },
+  "keywords": [
+    "webs"
+  ],
+  "author": "ScriptsDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XderStep/wlabs/issues"
+  },
+  "homepage": "https://github.com/XderStep/wlabs#readme",
+  "devDependencies": {
+    "@eslint/compat": "^1.0.3",
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "eslint-plugin-react": "^7.34.2",
+    "globals": "^15.4.0"
+  }
+}
